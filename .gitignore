@@ -1,0 +1,11 @@
+# Archivos de Visual Studio a ignorar
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.exe
+*.dll
+*.pdb
+*.log
