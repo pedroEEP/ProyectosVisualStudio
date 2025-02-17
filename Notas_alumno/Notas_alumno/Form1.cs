@@ -18,7 +18,7 @@ namespace Notas_alumno
                 return;
             }
 
-            int nota2 = int.Parse(txtNota2.Text);
+            int nota2 = Convert.ToInt32(txtNota2.Text);
             int nota3 = int.Parse(txtNota3.Text);
 
             int resultado = nota1 + nota2 + nota3;
